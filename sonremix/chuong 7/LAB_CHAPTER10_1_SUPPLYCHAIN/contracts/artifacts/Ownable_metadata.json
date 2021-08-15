@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chuong 7/LAB_CHAPTER10_1_SUPPLYCHAIN/contracts/Ownable.sol": "Ownable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chuong 7/LAB_CHAPTER10_1_SUPPLYCHAIN/contracts/Ownable.sol": {
+			"keccak256": "0xe8406c414200b694f27b1e5b05b30786292cd0388543dfda04647f47d249fb58",
+			"urls": [
+				"bzz-raw://022e2ea5e8ad43b948bf4176b35b6a99c62332ffb43a25ee0e40345336d2a88a",
+				"dweb:/ipfs/Qmbb8Wh7h2pTt12j24UqM3YiiHxrETN6XtA4JyvSzNvT6U"
+			]
+		}
+	},
+	"version": 1
+}

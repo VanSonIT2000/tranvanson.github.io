@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chuong 7/Chapter 7_11/Modifier.sol": "InOwned"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chuong 7/Chapter 7_11/Modifier.sol": {
+			"keccak256": "0x71ba7f2c1466d98c306ef182b413c46166dcfe25d3a0c8b4709dd215780eaecd",
+			"urls": [
+				"bzz-raw://6eb3b1be3f5d8ef667c3f6c597438865a76ac58b9b1f5344b3ddb48cb2f768d3",
+				"dweb:/ipfs/QmNhRx9CuU7pKDUCZcUWGFfsm88ZtgMxAwwDKMJWN6rXEa"
+			]
+		},
+		"chuong 7/Chapter 7_11/Owned.sol": {
+			"keccak256": "0xd6cf2edb9dbe48a7790b3930fb34eb64ae8c38287a8419afcb7913b3c681c2c9",
+			"urls": [
+				"bzz-raw://e45e4408a9aa636b1b055158988b623149c3794715de93dcf3276c06c2b138bd",
+				"dweb:/ipfs/QmU8pk6CG4R4awdFUgAgpprDAvrY1LfYsRYn8ZaL2LKjfj"
+			]
+		}
+	},
+	"version": 1
+}

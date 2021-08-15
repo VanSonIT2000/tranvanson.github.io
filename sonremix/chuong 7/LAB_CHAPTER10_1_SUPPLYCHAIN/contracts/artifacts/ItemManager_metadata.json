@@ -1,0 +1,175 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_itemIndex",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_step",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_itemAddress",
+						"type": "address"
+					}
+				],
+				"name": "SupplyChainStep",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_identifier",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_itemPrice",
+						"type": "uint256"
+					}
+				],
+				"name": "createItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "items",
+				"outputs": [
+					{
+						"internalType": "contract Item",
+						"name": "_item",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_identifier",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_itemPrice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum ItemManager.SupplyChainState",
+						"name": "_state",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_itemIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "triggerDelivery",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_itemIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "triggerPayment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chuong 7/LAB_CHAPTER10_1_SUPPLYCHAIN/contracts/ItemManager.sol": "ItemManager"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chuong 7/LAB_CHAPTER10_1_SUPPLYCHAIN/contracts/Item.sol": {
+			"keccak256": "0x8b91f70a48f5206aca96b30fc644dcf40d9ea672c7fe9d1c0f6e859a02d74d39",
+			"urls": [
+				"bzz-raw://6b964e8807b6c2e256ffecd892533f4fe827ed65c769750aa406acfb82d561e2",
+				"dweb:/ipfs/QmYzk5Vrro9Y3mfYLa17S1a17UepTx5YXTD6mYQ4bKkU5R"
+			]
+		},
+		"chuong 7/LAB_CHAPTER10_1_SUPPLYCHAIN/contracts/ItemManager.sol": {
+			"keccak256": "0x561647fbd2d0e16213700cdb626fba37a87bc678e53cd7d15b6ce4cd9eba14fb",
+			"urls": [
+				"bzz-raw://7b381cd1f9db9ac0880c8ee6193644983f5499d690be6a6c8596069d352dd301",
+				"dweb:/ipfs/QmVM9pkZ2i2HjJffuuU5sPEAho56rqHjejury3ynkC6MFM"
+			]
+		},
+		"chuong 7/LAB_CHAPTER10_1_SUPPLYCHAIN/contracts/Ownable.sol": {
+			"keccak256": "0xe8406c414200b694f27b1e5b05b30786292cd0388543dfda04647f47d249fb58",
+			"urls": [
+				"bzz-raw://022e2ea5e8ad43b948bf4176b35b6a99c62332ffb43a25ee0e40345336d2a88a",
+				"dweb:/ipfs/Qmbb8Wh7h2pTt12j24UqM3YiiHxrETN6XtA4JyvSzNvT6U"
+			]
+		}
+	},
+	"version": 1
+}

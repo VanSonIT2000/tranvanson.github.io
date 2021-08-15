@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myuint",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyUint",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chuong 7/Chapter 7_13/DebuggerSimple.sol": "DebuggerSimple"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chuong 7/Chapter 7_13/DebuggerSimple.sol": {
+			"keccak256": "0x61a62073bb95dde024e96f7f9dc2cc247853155c875fca0c1cd6462a3808299a",
+			"urls": [
+				"bzz-raw://a87c1949baeaf5bdc0fd66a5196f344821e02281b1d87827328471d975de768d",
+				"dweb:/ipfs/QmRRjEKJEx8Fzi6z7obNVGWzv7UymaGSN8cV7TV438sRbw"
+			]
+		}
+	},
+	"version": 1
+}

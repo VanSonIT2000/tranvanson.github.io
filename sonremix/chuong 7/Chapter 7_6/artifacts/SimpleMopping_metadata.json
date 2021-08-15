@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myMapping",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chuong 7/Chapter 7_6/SimpleMapping.sol": "SimpleMopping"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chuong 7/Chapter 7_6/SimpleMapping.sol": {
+			"keccak256": "0x68e6fa53a24c2999724726fca801879b9186b0e88f95fa7d28f9d98f5bc0fa97",
+			"urls": [
+				"bzz-raw://8937f9d9bc8139ad1f2395cd3d18565c94c1d6039a2277c37fa051cb8d855a25",
+				"dweb:/ipfs/QmWoESKJnYDipoGYq3BEmUWYJUMf3JhumhBGX7idaM5mg4"
+			]
+		}
+	},
+	"version": 1
+}

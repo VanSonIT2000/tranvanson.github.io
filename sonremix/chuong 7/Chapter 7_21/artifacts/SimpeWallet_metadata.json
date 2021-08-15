@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chuong 7/Chapter 7_15/SimpleWallet.sol": "SimpeWallet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chuong 7/Chapter 7_15/SimpleWallet.sol": {
+			"keccak256": "0x9d6ca98390fb0047165fd5cbb68827a86ea3f7a633527609c47bb223f42c9e1d",
+			"urls": [
+				"bzz-raw://7e5c4c09c4a6670c06ed91f2071fa985c806c1ff8f593ceeb8620494e1f25bb8",
+				"dweb:/ipfs/QmYPhdDC9RnaWJKkeUAvhoCdiUrvPZFYYs6zWm1XiEoxLh"
+			]
+		}
+	},
+	"version": 1
+}
